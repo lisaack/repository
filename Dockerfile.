@@ -1,5 +1,5 @@
 # Usa una imagen base de Node.js
-FROM node:alpine
+FROM ubuntu
 
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /usr/src/app

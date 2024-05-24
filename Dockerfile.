@@ -1,2 +1,3 @@
-Isaac Márquez y José Cartagena.
-Prueba 2 Tecnologías de Virtualización.
+FROM busybox
+COPY /hello /
+RUN cat /hello
